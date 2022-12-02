@@ -161,7 +161,7 @@ const Register = () => {
                             </span>
                         </div>
                         <div className='field'>
-                            <Button type="submit" label="Login" className="mt-2" disabled={loading} />
+                            <Button type="submit" label="Register" className="mt-2" disabled={loading} />
                             {loading && (
                                 <span className={Spinner}></span>
                             )}
